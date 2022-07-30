@@ -1,0 +1,11 @@
+const somar = require('./somar')
+const subtrair = require('./subtrair')
+const multiplicar = require('./multiplicar')
+const dividir = require('./dividir')
+
+console.log(somar(2,2))
+console.log(subtrair(2,2))
+console.log(multiplicar(2,2))
+console.log(multiplicar(0,2))
+console.log(dividir(2,2))
+console.log(dividir(2,0))
